@@ -1,0 +1,28 @@
+<html>
+    <body>
+        
+        <form name="myform">
+       This is Paragraph 1<br>
+<td><textarea name="inputtext" placeholder="comment"></textarea></td><br><br>
+This is Paragraph 2<br>
+<td><textarea name="outputtext" placeholder="comment"></textarea></td><br><br>
+This is Paragraph 3<br>
+<td><textarea name="outputtext" placeholder="comment"></textarea></td><br><br>
+This is Paragraph 4<br>
+<td><textarea name="outputtext" placeholder="comment" ontextarea="addtext()"></textarea></td><br><br>
+
+</form>
+
+        <script language="javascript" type="text/javascript">
+function addtext()
+{
+    var newtext = document.myform.inputtext.value;
+	 return document.myform.inputtext.value +=newtext;
+	
+	
+}
+ 
+    </script>
+    
+    </body>
+</html>

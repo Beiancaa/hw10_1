@@ -1,0 +1,4 @@
+It's impossible,
+because Ruby is a server side and can generate html code and send it to client side but
+client cannot send code to server.
+So, the best way is to use JS code.
