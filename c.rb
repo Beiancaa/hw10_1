@@ -1,3 +1,0 @@
-
-
-Dir["/path/to/search/*"]
